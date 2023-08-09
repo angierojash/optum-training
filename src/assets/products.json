@@ -1,0 +1,92 @@
+[
+  {
+    "id": "12345",
+    "name": "Laptop",
+    "price": 899.99,
+    "stock": 50,
+    "description": "A powerful laptop with a 15-inch display and Intel Core i7 processor.",
+    "categories": ["Electronics", "Computers", "Laptops"],
+    "available": true
+  },
+  {
+    "id": "67890",
+    "name": "Smartphone",
+    "price": 599.99,
+    "stock": 100,
+    "description": "A sleek smartphone with a high-resolution screen and dual-camera setup.",
+    "categories": ["Electronics", "Mobile Devices", "Smartphones"],
+    "available": true
+  },
+  {
+    "id": "54321",
+    "name": "Headphones",
+    "price": 129.99,
+    "stock": 25,
+    "description": "Noise-canceling wireless headphones with premium sound quality.",
+    "categories": ["Electronics", "Audio", "Headphones"],
+    "available": true
+  },
+  {
+    "id": "98765",
+    "name": "Tablet",
+    "price": 349.99,
+    "stock": 30,
+    "description": "A versatile tablet with a large display and fast performance.",
+    "categories": ["Electronics", "Computers", "Tablets"],
+    "available": true
+  },
+  {
+    "id": "45678",
+    "name": "Gaming Console",
+    "price": 399.99,
+    "stock": 15,
+    "description": "A next-gen gaming console with immersive graphics and gameplay.",
+    "categories": ["Electronics", "Gaming", "Consoles"],
+    "available": true
+  },
+  {
+    "id": "23456",
+    "name": "Wireless Speaker",
+    "price": 79.99,
+    "stock": 50,
+    "description": "Portable wireless speaker with rich sound and long battery life.",
+    "categories": ["Electronics", "Audio", "Speakers"],
+    "available": true
+  },
+  {
+    "id": "78901",
+    "name": "Digital Camera",
+    "price": 299.99,
+    "stock": 20,
+    "description": "High-quality digital camera with advanced features for photography enthusiasts.",
+    "categories": ["Electronics", "Cameras", "Digital Cameras"],
+    "available": true
+  },
+  {
+    "id": "34567",
+    "name": "Fitness Tracker",
+    "price": 49.99,
+    "stock": 75,
+    "description": "Wearable fitness tracker to monitor your health and activity.",
+    "categories": ["Electronics", "Wearables", "Fitness"],
+    "available": true
+  },
+  {
+    "id": "89012",
+    "name": "External Hard Drive",
+    "price": 129.99,
+    "stock": 40,
+    "description": "High-capacity external hard drive for secure data storage and backup.",
+    "categories": ["Electronics", "Computers", "Storage"],
+    "available": true
+  },
+  {
+    "id": "56789",
+    "name": "Smart Watch",
+    "price": 199.99,
+    "stock": 60,
+    "description": "Smartwatch with a variety of features including notifications and fitness tracking.",
+    "categories": ["Electronics", "Wearables", "Smartwatches"],
+    "available": true
+  }
+]

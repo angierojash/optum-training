@@ -1,5 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
+import {useEffect} from 'react'
+import { getAllProducts } from 'src/services/productsServices'
 
 const inter = Inter({ subsets: ['latin'] })
 
