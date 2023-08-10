@@ -1,11 +1,11 @@
 import { API_BASE_URL } from "src/constants/api";
 
 
-export const getAllProducts = async () => {
+export const getProduct = async (id:string) => {
     try {
-        const response = await fetch(`${API_BASE_URL}/products`)
+        const response = await fetch(`${API_BASE_URL}/product/${id}`)
         const data = await response.json();
-        return data.products;
+        return data.product;
     } catch(error) {
         throw error
     }
