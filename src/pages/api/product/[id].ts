@@ -2,24 +2,31 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 import { Product } from 'src/interface/product';
 import products from '../../../assets/products.json'
+import { Product as ProductModel} from 'src/models/Product';
+import { getDataSource } from 'src/database/index'
+import { ObjectId } from 'mongodb';
 
 
 type Data = {
-  product: Product
+  product: ProductModel
 }
 
 type Error = {
   message: string
 }
 
-export default function handler(
+export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data | Error>
 ) {
   const {id} = req.query;
-  const product = products.filter(item => item.id === id)
-  if (product.length === 0) {
+  const AppDataSource = await getDataSource();
+  const product = await AppDataSource.getRepository(ProductModel).findOneBy({
+    _id: new ObjectId(id?.toString())
+  })
+  // const product = products.filter(item => item._id === id)
+  if (!product) {
     return res.status(404).json({message: "Product not found"})
   }
-  res.status(200).json({product: product[0]})
+  res.status(200).json({product})
 }

@@ -1,16 +1,16 @@
 [
-    "Electronics",
-    "Computers",
-    "Laptops",
-    "Mobile Devices",
-    "Smartphones",
-    "Gaming",
-    "Consoles",
-    "Audio",
-    "Headphones",
-    "Tablets",
-    "Cameras",
-    "Digital Cameras",
-    "Speakers",
-    "Wearables"
-]
+    { "name": "Electronics" },
+    { "name": "Computers" },
+    { "name": "Laptops" },
+    { "name": "Mobile Devices" },
+    { "name": "Smartphones" },
+    { "name": "Gaming" },
+    { "name": "Consoles" },
+    { "name": "Audio" },
+    { "name": "Headphones" },
+    { "name": "Tablets" },
+    { "name": "Cameras" },
+    { "name": "Digital Cameras" },
+    { "name": "Speakers" },
+    { "name": "Wearables" }
+  ]

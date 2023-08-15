@@ -9,7 +9,7 @@ type Props = {
 function ProductCard({ product }: Props) {
   return (
     <Link
-      href={`/product/${product.id}`}
+      href={`/product/${product._id}`}
       className="group rounded-lg border border-transparent px-5 py-4 transition-colors border-gray-50 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
       rel=""
     >
